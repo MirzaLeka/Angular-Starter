@@ -1,4 +1,4 @@
-# Connection between components
+## Connection between components
 
 ### Q: How does App Component use Greeting Component?
 
