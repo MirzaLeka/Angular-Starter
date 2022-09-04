@@ -11,6 +11,9 @@ export class GreetingComponent {
   greeting = 'Hello World!';
 
   currentDate = new Date()
+
+  price = 99.99
+  numbers = [1,2,3,4,5,6];
   apiData = [{ id: 1, name: 'Mirza', born: 1994, job: 'DEV' }]
 
 }
