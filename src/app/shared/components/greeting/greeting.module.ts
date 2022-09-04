@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GreetingComponent } from './greeting.component';
+import { DirectivesModule } from '../../directives/directives.module';
 
 
 
@@ -9,7 +10,8 @@ import { GreetingComponent } from './greeting.component';
     GreetingComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    DirectivesModule
   ],
   exports: [
     GreetingComponent

@@ -1,5 +1,7 @@
 <h1>{{ greeting | uppercase }}</h1>
 
+<h3>Pipes</h3>
+
 <p>Price: {{ price | currency: "CAD":"symbol-narrow" }} </p>
 <p>Price: {{ price | number: '1.0-0' | currency: "EUR" }} </p>
 
@@ -11,4 +13,8 @@
 <p>Arrays: {{ numbers | slice:2 }}</p>
 
 <p>Arrays: {{ numbers | slice:2:-1 }}</p>
+
+<h3>Directive</h3>
+
+<input type="text" appLeetWrite />
 

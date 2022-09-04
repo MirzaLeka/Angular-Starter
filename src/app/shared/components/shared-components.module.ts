@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { GreetingModule } from './components/greeting/greeting.module';
-import { TodosModule } from './components/todos/todos.module';
+import { GreetingModule } from './greeting/greeting.module';
+import { TodosModule } from './todos/todos.module';
 
 
 @NgModule({
@@ -11,6 +11,6 @@ import { TodosModule } from './components/todos/todos.module';
   exports: [
     GreetingModule,
     TodosModule,
-  ],
+  ]
 })
-export class SharedModule { }
+export class SharedComponentsModule { }
