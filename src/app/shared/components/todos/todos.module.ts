@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TodosComponent } from './todos.component';
-
+import { PipesModule } from '../../pipes/pipes.module';
 
 
 @NgModule({
@@ -9,7 +9,8 @@ import { TodosComponent } from './todos.component';
     TodosComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    PipesModule
   ],
   exports: [
     TodosComponent

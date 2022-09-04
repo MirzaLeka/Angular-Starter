@@ -10,4 +10,7 @@ export class GreetingComponent {
   @Input()
   greeting = 'Hello World!';
 
+  currentDate = new Date()
+  apiData = [{ id: 1, name: 'Mirza', born: 1994, job: 'DEV' }]
+
 }

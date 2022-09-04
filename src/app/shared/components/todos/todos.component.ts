@@ -7,6 +7,8 @@ import { Component, Input } from '@angular/core';
 })
 export class TodosComponent {
 
+  special = 'S';
+
   // Todos component is a pure/presentational component as it does not contain any business logic
 
   @Input() todos: string[] | null = [];

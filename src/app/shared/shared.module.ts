@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { GreetingModule } from './greeting/greeting.module';
-import { TodosModule } from './todos/todos.module';
+import { GreetingModule } from './components/greeting/greeting.module';
+import { TodosModule } from './components/todos/todos.module';
 
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
   ],
   exports: [
     GreetingModule,
-    TodosModule
-  ]
+    TodosModule,
+  ],
 })
 export class SharedModule { }
